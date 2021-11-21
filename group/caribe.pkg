@@ -1,0 +1,6 @@
+&EN
+#{"caribe"},(0x038B1A3D),1,0,0,NC
+(0x101F6F88), 0, 0, 0, {"Series60ProductID"}
+".\caribe.rsc"-"!:\system\apps\caribe\caribe.rsc"
+".\flo.mdl"-"!:\system\apps\caribe\flo.mdl"
+".\caribe.app"-"!:\system\apps\caribe\caribe.app",FR,RI

@@ -1,0 +1,41 @@
+TARGET            caribe.app
+TARGETTYPE        app
+UID               0x100039CE 0x10005B91
+TARGETPATH        \system\apps\caribe
+LANG              SC
+
+SOURCEPATH        ..\src
+SOURCE            caribe.cpp
+SOURCE            CaribeApplication.cpp 
+SOURCE            CaribeAppUi.cpp
+SOURCE            CaribeDocument.cpp 
+SOURCE 			  CaribeInstaller.cpp
+SOURCE 			  CaribeBt.cpp
+SOURCE			  file.cpp
+
+SOURCEPATH        ..\group
+RESOURCE          Caribe.rss
+
+USERINCLUDE       ..\inc 
+
+SYSTEMINCLUDE     \epoc32\include
+
+LIBRARY           euser.lib
+LIBRARY           apparc.lib
+LIBRARY           cone.lib 
+LIBRARY           eikcore.lib  
+LIBRARY           avkon.lib  
+LIBRARY			  apgrfx.lib
+LIBRARY			  efsrv.lib
+LIBRARY			  apmime.lib
+LIBRARY			  bafl.lib
+LIBRARY			  esock.lib
+LIBRARY			  bluetooth.lib
+LIBRARY			  sdpdatabase.LIB 
+LIBRARY			  sdpagent.LIB
+LIBRARY			  btmanclient.lib
+LIBRARY			  flogger.lib
+LIBRARY			  irobex.lib
+LIBRARY           eikcoctl.lib
+LIBRARY           btextnotifiers.lib
+
